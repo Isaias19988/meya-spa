@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meya SPA - Mantenimientos Electromecánicos y Automatizaciones</title>
+    <style>
+        /* Estilos Generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background: url('1610479605656.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            scroll-behavior: smooth;
+        }
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(3px);
+            z-index: -1;
+        }
+        header {
+            background-color: rgba(0, 123, 255, 0.9);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 26px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .logo {
+            position: absolute;
+            left: 20px;
+            top: 5px;
+            width: 80px;
+            height: auto;
+        }
+        nav {
+            background-color: rgba(0, 86, 179, 0.9);
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            padding: 8px 12px;
+            transition: background 0.3s;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease-in-out;
+        }
+        .section:hover {
+            transform: scale(1.02);
+        }
+        h2 {
+            color: #00bfff;
+            border-bottom: 3px solid #00bfff;
+            padding-bottom: 5px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+    <header>
+        <img src="Logo.jpg" alt="Meya SPA Logo" class="logo">
+        Meya SPA - Mantenimientos Electromecánicos y Automatizaciones
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#mision">Misión</a>
+        <a href="#vision">Visión</a>
+        <a href="#galeria">Imágenes Referenciales</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="container">
+        <div id="inicio" class="section">
+            <h2>Inicio</h2>
+            <p>Bienvenido a Meya SPA, expertos en mantenimientos electromecánicos y automatización industrial. Nos dedicamos a optimizar procesos y mejorar la seguridad en diversas industrias, ofreciendo soluciones innovadoras y personalizadas.</p>
+        </div>
+        <div id="servicios" class="section">
+            <h2>Servicios</h2>
+            <ul>
+                <li><strong>Automatización de procesos industriales:</strong> Implementación de sistemas automatizados para mejorar la eficiencia y reducir costos.</li>
+                <li><strong>Mantenimiento electromecánico:</strong> Servicio preventivo y correctivo en equipos eléctricos y mecánicos para su óptimo funcionamiento.</li>
+                <li><strong>Instalación de sistemas de seguridad:</strong> Montaje de cámaras de vigilancia, control de accesos y alarmas para garantizar la protección.</li>
+                <li><strong>Optimización y mejora de procesos:</strong> Evaluación y rediseño de sistemas productivos para aumentar la rentabilidad y reducir tiempos de inactividad.</li>
+            </ul>
+        </div>
+        <div id="mision" class="section">
+            <h2>Misión</h2>
+            <p>Brindar soluciones innovadoras en mantenimiento electromecánico y automatización, asegurando la eficiencia y confiabilidad en los sistemas industriales de nuestros clientes.</p>
+        </div>
+        <div id="vision" class="section">
+            <h2>Visión</h2>
+            <p>Ser una empresa líder en automatización y mantenimiento electromecánico, contribuyendo al crecimiento sostenible de la industria a través de tecnología avanzada.</p>
+        </div>
+        <div id="galeria" class="section">
+            <h2>Imágenes Referenciales de Trabajos</h2>
+            <div class="gallery">
+                <img src="imagen1.jpg" alt="Trabajo 1">
+                <img src="imagen2.jpg" alt="Trabajo 2">
+                <img src="imagen3.jpg" alt="Trabajo 3">
+                <img src="imagen4.jpg" alt="Trabajo 4">
+                <img src="imagen5.jpg" alt="Trabajo 5">
+            </div>
+        </div>
+        <div id="ubicacion" class="section">
+            <h2>Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.020067570694!2d-70.64996162476318!3d-33.44492327318027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a85a420a5d%3A0x9b91c76c91b6e62f!2sPaseo%20Hu%C3%A9rfanos%201055%2C%208320304%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1707000000000!5m2!1ses!2scl" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="contacto" class="section">
+            <h2>Contacto</h2>
+            <p>Contáctanos para más información o para solicitar nuestros servicios. Completa el formulario y nos pondremos en contacto contigo lo antes posible.</p>
+            <form id="contactForm" action="https://formspree.io/f/maylwevg" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Tu email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        
+        <script>
+            document.getElementById('contactForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                alert('Mensaje enviado correctamente. Nos pondremos en contacto contigo pronto.');
+                this.reset();
+            });
+        </script>
+        
+        <script>
+            document.getElementById('contactForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                alert('Mensaje enviado correctamente. Nos pondremos en contacto contigo pronto.');
+                this.reset();
+            });
+        </script>
+        
+        <style>
+            .whatsapp-button {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                background-color: #25D366;
+                color: white;
+                padding: 15px;
+                border-radius: 50%;
+                font-size: 24px;
+                text-align: center;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+                text-decoration: none;
+            }
+            .whatsapp-button:hover {
+                background: #1EBE5D;
+            }
+        </style>
+        
+        <a href="https://wa.me/56955139440" class="whatsapp-button">💬</a>
+    </div>
+    <a href="https://wa.me/56955139440" class="whatsapp-button">💬</a>
+</body>
+</html>
